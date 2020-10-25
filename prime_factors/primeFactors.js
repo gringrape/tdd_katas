@@ -3,5 +3,6 @@ export default class PrimeFactors {
     if (number < 2) {
       return [];
     }
+    return [number];
   }
 }
