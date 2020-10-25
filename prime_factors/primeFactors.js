@@ -1,5 +1,7 @@
 export default class PrimeFactors {
-  generate() {
-    return [];
+  generate(number) {
+    if (number < 2) {
+      return [];
+    }
   }
 }
